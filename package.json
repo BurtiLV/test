@@ -1,0 +1,11 @@
+{
+  "name": "quote-of-the-day",
+  "version": "1.0.0",
+  "description": "Tiny Node.js server showing a daily quote, with an admin page backed by SQLite",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js"
+  }
+}
